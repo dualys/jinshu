@@ -1,0 +1,12 @@
+[package]
+name = "jinshu"
+description = "Merkle-backed storage engine and Noun graph database on NVMe"
+keywords = ["jinshu", "storage", "merkle", "database"]
+license.workspace = true
+edition.workspace = true
+version.workspace = true
+[dependencies]
+kpack = { workspace = true }
+noun = { workspace = true }
+blake3 = { workspace = true }
+heapless = { workspace = true }
