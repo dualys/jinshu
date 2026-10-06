@@ -2,11 +2,12 @@
 name = "jinshu"
 description = "Merkle-backed storage engine and Noun graph database on NVMe"
 keywords = ["jinshu", "storage", "merkle", "database"]
-license.workspace = true
-edition.workspace = true
-version.workspace = true
+readme = "README.md"
+license = "APGL-3.0-or-later"
+edition = "2024"
+version = "0.1.0"
 [dependencies]
-kpack = { workspace = true }
-noun = { workspace = true }
-blake3 = { workspace = true }
-heapless = { workspace = true }
+blake3 = { version = "1.8.7", default-features = false }
+heapless = { version = "0.9.3", default-features = false }
+kpack = "0.1.0"
+noun = "0.1.0"
